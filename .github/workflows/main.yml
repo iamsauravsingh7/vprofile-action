@@ -3,7 +3,7 @@ on: workflow_dispatch
 env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: gitopsaction
-  EKS_CLUSTER: gitopsaction
+  EKS_CLUSTER: gitops-eks
 
 jobs:
   Testing:
